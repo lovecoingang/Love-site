@@ -23,7 +23,7 @@
           Love is more than just a crypto - it's a movement built on giving back and creating a positive impact.
           75% of the total supply is reserved for community giveaways and events.
           Our goal is to empower holders through <strong>community voting</strong> on future initiatives, weekly rewards, and token burns.
-          We will also be releasing a schedule for when we will be doing airdrops, giveaways, and votes!
+          We will also be releasing a schedule soon for when we will be doing airdrops, giveaways, and votes!
         </p>
         <h3>LOW LIQUIDITY LAUCH</h3>
         <p>
@@ -45,6 +45,20 @@
         <p>Love is Live on Orca! Be an early supporter and join the movement!</p>
         <a href="https://www.orca.so/pools/EC5oLFxed6k4UMGNZNwaQXUvUciCTMKWawUzUMMYtQm7" class="buttons">Buy on Orca</a>
       </section>
+      <section class="mint-address">
+        <h2>Love Mint Address</h2>
+        <p id="mint-id">EFQ7EEKvttR5UQxX9mccR5SJaDHBfaZ2MyKiKXzGPM1a</p>
+        <button onclick="copyMint()">Copy Mint Address</button>
+      </section>
+
+      <script>
+        function copyMint() {
+          const mint = document.getElementById("mint-id").textContent;
+          navigator.clipboard.writeText(mint).then(() => {
+          alert("Mint address copied!");
+        });
+      }
+      </script>
     </main>
 
     <footer>
