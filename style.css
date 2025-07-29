@@ -12,7 +12,7 @@ body {
 }
 
 header h1 {
-  backgorund: linear-gradient(135deg, #ffada6, #ff1a750;
+  background: linear-gradient(135deg, #ffada6, #ff1a750);
   padding: 2rem 1rem;
   border-bottom: 3px solid #fff;
 }
@@ -24,8 +24,7 @@ header .tagline {
 
 #logo {
   width: 120px;
-  height: 120px;
-  /*border-radius: 50%;*/
+  border-radius: 50%;
   margin-bottom: 1rem;
   box-shadow: 0 0 15px rgba(255, 20, 147, 0.7);
 }
