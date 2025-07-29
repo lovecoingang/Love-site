@@ -22,7 +22,7 @@ header .tagline {
   margin: 0.5rem 0;
 }
 
-.logo {
+#logo {
   width: 120px;
   border-radius: 50%;
   margin-bottom: 1rem;
