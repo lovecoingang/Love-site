@@ -69,8 +69,8 @@ h2 {
   display: inline-block;
   background: #ff1a75;
   color: #fff;
-  padding: 0.8rem 1.5rem;
-  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
   transition: background 0.3s ease;
