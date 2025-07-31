@@ -67,7 +67,8 @@ h2 {
 }
 
 #copy {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
   background: #ff1a75;
   color: #fff;
   padding: 0.5rem 1rem;
