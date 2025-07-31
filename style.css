@@ -66,6 +66,21 @@ h2 {
   background: #ff3385;
 }
 
+.jup-but {
+  display: inline-block;
+  background: #307D7E;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.jup-but:hover {
+  background: #ff3385;
+}
+
 #copy {
   display: flex;
   flex-wrap: wrap;
