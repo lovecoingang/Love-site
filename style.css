@@ -92,7 +92,9 @@ h2 {
 }
 
 #mint-id {
+  word-break: break-word;
   overflow-wrap: break-word;
+  whitespace: normal;
 }
 
 .donation-stats {
