@@ -79,7 +79,7 @@ h2 {
 
 .donation-summary {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 2rem;
   background-color: #1a1a1a;
