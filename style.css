@@ -87,15 +87,14 @@ h2 {
 .donation-block {
   width: 150px;           
   height: 150px;
-  background-color: #ff1a75;
-  border: 2px solid #ccc;
+  background-color: #262626;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   font-weight: bold;
-  box-shadow: 2px 2px 8px rgba(255,0,147,0.7);
+  box-shadow: 0 0 15px rgba(255, 20, 147, 0.7); color: #ff1a75;
   margin: 10px;
 }
 
