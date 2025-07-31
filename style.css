@@ -120,6 +120,17 @@ h2 {
   font-weight: bold;
 }
 
+.twitter-link {
+  color: #1DA1F2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.twitter-link:hover {
+  color: #ff3385;
+  text-decoration: underline;
+}
+
 footer {
   text-align: center;
   padding: 1.5rem;
