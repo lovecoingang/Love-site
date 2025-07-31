@@ -6,7 +6,7 @@ body {
   line-height: 1.6;
 }
 
-#container {
+.container {
   text-align: center;
   padding: 2rem;
 }
@@ -22,7 +22,7 @@ header .tagline {
   margin: 0.5rem 0;
 }
 
-#logo {
+.logo {
   width: 120px;
   height: 120px;
   object-fit: contain;
