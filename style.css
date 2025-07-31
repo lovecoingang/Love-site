@@ -78,10 +78,10 @@ h2 {
 }
 
 .donation-summary {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
   background-color: #1a1a1a;
 }
 
