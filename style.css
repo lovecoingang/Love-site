@@ -78,22 +78,25 @@ h2 {
 
 .donation-summary {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: nowrap;
+  justify-content: space-around;
   padding: 2rem;
   background-color: #1a1a1a;
 }
 
 .donation-block {
-  flex: 1 1 200px;
-  margin: 1rem;
-  padding: 1.5rem;
-  background-color: #262626;
-  box-shadow: 0 0 15px rgba(255, 20, 147, 0.7);
-  color: #ff1a75;
-  font-size: 1.2rem;
+  width: 150px;           
+  height: 150px;
+  background-color: #ff1a75;
+  border: 2px solid #ccc;
   border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  font-weight: bold;
+  box-shadow: 2px 2px 8px rgba(255,0,147,0.7);
+  margin: 10px;
 }
 
 .donation-log {
