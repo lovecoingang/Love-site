@@ -22,8 +22,8 @@
         <h2>About</h2>
         <p>
           Love is more than just a crypto - it's a movement built on giving back and creating a positive impact.
-          75% of the total supply is reserved for community giveaways.
-          Our goal is to give back to both our holders and our community, and give the community the power to vote on the future outcome of most token releases
+          There are only 1 million of these non-mintable tokens and 75% of the that supply is reserved for community giveaways over time!
+          Our goal is to give back to both our holders and our community, and give the community the power to vote on the future outcome of most token releases.
           <br>Launched July 29, 2025
         </p>
         <a href="donations.html" class="buttons">Check Our Donations</a>
@@ -44,6 +44,7 @@
           Currently airdrops are manual and will be given within 24 hours for transparency and trust. As the liquidity 
           pool deepens and automation improves, so will the scale and simplicity of transactions.
         </p>
+        <p><strong>Current Market Cap: $55 / Current Liquid 15%</strong></p>
       </section>
       <section class="buy">
         <h2>Get LOVE</h2>
@@ -59,13 +60,13 @@
         </p>
         <a href="https://linktr.ee/lovecoingang" class="buttons">LinkTree</a>
         <h4>Love Mint Address</h4>
-        <p id="mint-id">EFQ7EEKvttR5UQxX9mccR5SJaDHBfaZ2MyKiKXzGPM1a</p>
+        <p id="mint-id">EFQ7EEKvttR5UQxX9mccR5SJ<br>aDHBfaZ2MyKiKXzGPM1a</p>
         <button id="copy" onclick="copyMint()">Copy Mint Address</button>
       </section>
 
       <script>
         function copyMint() {
-          const mint = document.getElementById("mint-id").textContent;
+          const mint = document.getElementById("mint-id").innerText;
           navigator.clipboard.writeText(mint).then(() => {
           alert("Mint address copied!");
         });
